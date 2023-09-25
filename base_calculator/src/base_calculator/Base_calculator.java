@@ -18,6 +18,13 @@ public class Base_calculator {
         // TODO code application logic here
     }
     
+    public int multiplicacion(int a,int b){
+        return a*b;
+    }
+    
+    public double division(int a, int b){
+        return a/b;
+    }
 
     
 }
