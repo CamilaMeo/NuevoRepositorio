@@ -29,4 +29,13 @@ public class Calculadora {
     return b-a;
     }
     
+    public int multiplicacion(int a,int b){
+        return a*b;
+    }
+    
+    public double division(int a, int b){
+        return a/b;
+    }
+
+    
 }
