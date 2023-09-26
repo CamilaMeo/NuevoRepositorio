@@ -5,6 +5,8 @@
  */
 package base_calculator;
 
+import base_calculator.servicios.Operaciones;
+
 /**
  *
  * @author 54223
@@ -15,27 +17,14 @@ public class Calculadora {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
-        
-    
-        
-    }
-    
-    public int suma(int a, int b) {
-    return a+b;
-    }
-    
-    public int resta (int a, int b) {
-    return b-a;
-    }
-    
-    public int multiplicacion(int a,int b){
-        return a*b;
-    }
-    
-    public double division(int a, int b){
-        return a/b;
+
+        Operaciones o1 = new Operaciones(); 
+
+        System.out.println(o1.suma(4, 5));
+        System.out.println(o1.resta(4, 5));
+        System.out.println(o1.division(4, 5));
+        System.out.println(o1.multiplicacion(4, 5));
+
     }
 
-    
 }
