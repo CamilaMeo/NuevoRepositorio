@@ -36,10 +36,16 @@ public class Calculadora {
     public double division(int a, int b){
         return a/b;
     }
-    
+
     public double powElevado(int a, int b){
         return Math.pow(a, b);
     }
 
-    
+public void Raiz(double a){
+        double numero = 0;
+        double raizCuadrada = Math.sqrt(numero);
+        
+         System.out.println("La raíz cuadrada de " + numero + " es " + raizCuadrada);
+    }
 }
+
