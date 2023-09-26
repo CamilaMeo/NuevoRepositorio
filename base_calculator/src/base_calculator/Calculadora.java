@@ -36,6 +36,10 @@ public class Calculadora {
     public double division(int a, int b){
         return a/b;
     }
+    
+    public double powElevado(int a, int b){
+        return Math.pow(a, b);
+    }
 
     
 }
